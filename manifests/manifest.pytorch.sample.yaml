@@ -37,3 +37,4 @@ spec:
             count: 0
             type: gpu
             product: nvidia-tesla-t4
+

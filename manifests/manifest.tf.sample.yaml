@@ -3,13 +3,13 @@ apiVersion: 0.2.2
 
 builder:
   image: image
-  dockerfile: ./dockerfiles/Dockerfile
+  dockerfile: ./build/Dockerfile
   context: .
 
 spec:
   operator: tf
   image: image
-  command: "cat value.txt && echo $KEY_RUN && python3 -u main.py --operator=tf --sleep=300 --tb-write=True"
+  command: "python3 -u main.py --operator=tf --sleep=300 --tb-write=True"
 
   tensorboard:
     enabled: true
@@ -26,3 +26,4 @@ spec:
             count: 0
             type: gpu
             product: nvidia-tesla-t4
+
