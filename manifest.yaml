@@ -8,7 +8,7 @@ builder:
 engineName: kyber-engine-34c227996ef84b8a 
  
 spec: 
-  operator: jobset 
+  operator: jobset  
   image: image
   command: "python3 -u main.py --operator=jobset --sleep=30 --tb-write=True"  
 
