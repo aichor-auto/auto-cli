@@ -5,6 +5,7 @@ builder:
   image: image
   dockerfile: ./build/Dockerfile
   context: .
+engineName: kyber-engine-34c227996ef84b8a 
  
 spec: 
   operator: jobset 
