@@ -3,7 +3,7 @@ apiVersion: 0.2.2
    
 builder:   
   image: image
-  dockerfile: ./build/Dockerfile
+  dockerfile: ./build/Dockerfile 
   context: . 
 engineName: kao-mutlieng-0602f07f26374f1a
  
