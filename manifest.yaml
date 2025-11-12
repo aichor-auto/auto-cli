@@ -9,7 +9,7 @@ builder:
 spec:
   operator: jobset
   image: image
-  command: "python3 -u main.py --operator=jobset --sleep=200 --tb-write=True"
+  command: "python3 -u main.py --operator=jobset --sleep=80 --tb-write=True"
 
   tensorboard:
     enabled: true
