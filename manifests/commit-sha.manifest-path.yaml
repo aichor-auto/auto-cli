@@ -9,7 +9,7 @@ builder:
 spec:
   operator: jobset
   image: image
-  command: "python3 -u main.py --operator=jobset --sleep=40"
+  command: "python3 -u main.py --operator=jobset --sleep=60"
 
 
   types:
