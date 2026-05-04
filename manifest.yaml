@@ -10,7 +10,7 @@ spec:
   operator: jobset
   image: image
   command: "python3 -u main.py --operator=jobset --sleep=300 --tb-write=True"
-  engineName: main-aks-dev
+  engineName: main-aws-dev
 
   tensorboard:
     enabled: true
